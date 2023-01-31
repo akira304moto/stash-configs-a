@@ -1,8 +1,0 @@
-name: 去广告ADL
-desc: 重写去广告ADL
-
-http:
-  mitm:
-    - "pan.baidu.com"
-  rewrite:
-    - ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
