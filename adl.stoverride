@@ -5,4 +5,4 @@ http:
   mitm:
     - "pan.baidu.com"
   rewrite:
-    - ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
+    - ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
